@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   'http://localhost:5173', 
-  'https://your-frontend-domain.com'
+  'https://smart-inventory-ai-driven-future-fo-one.vercel.app'
 ];
 
 app.use(cors({
