@@ -30,7 +30,7 @@ const LeftNav = ({ collapsed }) => {
         localStorage.removeItem('token');
         localStorage.removeItem('role');
         localStorage.removeItem('userId');
-        navigate('/');
+        window.location.href = '/';
     };
 
     const getMenuItems = () => {
