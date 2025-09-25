@@ -57,7 +57,7 @@ app.use('/ai', forecastRoutes);
 
 // Default route
 app.get('/', (req, res) => {
-    res.send('Hello, Express!');
+    res.send('SmartInventory API is running!');
 });
 
 // Error handling middleware
